@@ -11,10 +11,12 @@ public class HomeworkOne {
         System.out.println ("Banana");
         System.out.println ("Apple");
     }
+
     static void checkSumSign() {
             int a = 10, b = -15;
             System.out.println(a + b >= 0? "Сумма положительная" : "Сумма отрицательная");
     }
+
     static void printColor() {
         int value = 100;
         if (value <= 0) {
@@ -27,6 +29,7 @@ public class HomeworkOne {
             System.out.println ("Зелёный");
         }
     }
+
     static void compareNumbers() {
             int a = 10, b = 15;
             if (a >=b) {
