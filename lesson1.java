@@ -19,15 +19,15 @@ public class HomeworkOne {
         int value = 100;
         if (value <= 0) {
             System.out.println("Красный");
-    }
+        }
         if (value > 0 && value <= 100) {
             System.out.println ("Жёлтый");
-    }
+        }
         if (value > 100) {
             System.out.println ("Зелёный");
+        }
     }
-    }
-        static void compareNumbers() {
+    static void compareNumbers() {
             int a = 10, b = 15;
             if (a >=b) {
                 System.out.println("a >= b");
@@ -35,5 +35,5 @@ public class HomeworkOne {
             else {
                 System.out.println("a < b");
             }
-        }
     }
+}
