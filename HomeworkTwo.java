@@ -10,6 +10,7 @@ public class HomeworkTwo {
         System.out.println(checkSum(6, 3));
         checkNum (0);
         System.out.println(checkNumNegative(0));
+        repeatString("word", 6);
     }
     
     static boolean checkSum( int a, int b) {
@@ -24,8 +25,8 @@ public class HomeworkTwo {
         return a < 0;
     }    
     
-    static void stringsNum(String str, int count) {
-                for (int i = 0; i < count; i ++) {
+    static void repeatString(String str, int count) {
+        for (int i = 0; i < count; i ++) {
             System.out.println(str);   
         }
     }
