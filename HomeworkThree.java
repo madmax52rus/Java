@@ -47,7 +47,7 @@ class HomeworkThree {
             System.out.println(Arrays.toString(arrDiagonal[i]));
         }
         
-        // System.out.println("Item 5");    
+        System.out.println("Item 5");    
         
         int[] arrCreate = arrCreate(14, 8);
         System.out.println(Arrays.toString(arrCreate));
